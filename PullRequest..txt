@@ -1,0 +1,18 @@
+Un Pull Request (PR) —o Merge Request en plataformas como GitLab— es una solicitud que realizas 
+para proponer que los cambios hechos en una rama (branch) de tu código se incorporen o fusionen (merge) 
+a otra rama principal (generalmente main o develop).
+
+Aunque se utiliza constantemente al trabajar con Git, el Pull Request no es un comando nativo de Git, 
+sino una funcionalidad propia de las plataformas de alojamiento de código como GitHub, GitLab o Bitbucket.
+
+¿Cuál es su función principal?
+Revisión de código (Code Review): Permite que otros desarrolladores revisen los cambios que hiciste, 
+dejen comentarios, señalen posibles errores o sugieran mejoras antes de que el código llegue a producción.
+
+Control de calidad: Evita que se suban cambios defectuosos o sin probar a la rama principal del proyecto.
+
+Discusión y documentación: Funciona como un foro donde el equipo puede debatir sobre la implementación de 
+una nueva característica y deja un historial claro de por qué y cómo se tomó una decisión técnica.
+
+Pruebas automatizadas (CI/CD): Permite ejecutar pruebas automáticas para verificar que tus cambios no rompan 
+el funcionamiento existente de la aplicación antes de fusionarlos.
